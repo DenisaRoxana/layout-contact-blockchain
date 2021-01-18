@@ -1,0 +1,107 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.page-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/header.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.logo img{
+    width: 10%;
+    height: 10%;
+}
+
+.signup{
+    display: inline-block;
+    padding: 0%;
+    background-color: white;
+    border-radius: 20px;
+    color: #fff;
+    width: fit-content;
+    text-align: center;
+}
+
+.menu-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    margin: -35px;
+}
+
+.menu-elements-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+ul{
+    
+    list-style-type: none;
+}
+
+li a{
+    padding: 20px 40px;
+    text-align: center;
+    color: white;
+    font-family:sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup_color{
+    color: blue;
+}
+
+a:hover{
+    color: #acfdfe ;
+}
+
+.title-wrapper{
+    color: #fff;
+    font-family: Arial;
+    padding: 60px 10px;
+    font-weight: lighter;
+}
+
+.title-wrapper div:first-child{
+      text-transform: uppercase; 
+      font-size: 40px;
+}
+
+.title-wrapper div:nth-child(2){
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid #acfdfe;
+    padding-top: 20px;
+    width: 30%;
+}
+
+.title-wrapper div:last-child{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.divider{
+    border-bottom: 3px solid #acfdfe;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 30px 45px 30px 45px;
+}
+
+.form-wrapper{
+    display: flex;
+}
+
+.individual-form-info-wrapper{
+    justify-content: center;
+}
