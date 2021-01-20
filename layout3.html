@@ -6,6 +6,7 @@
         <meta name="author" content="Denisa-Roxana">
         <meta name="description" content="css html layout">
         <link rel="stylesheet" type="text/css" href="resources/main.css">
+        <link href="libraries/font-awesome/css/all.css" rel="stylesheet">
     </head>
     <body>
         <div class="page-wrapper">
@@ -31,23 +32,41 @@
             <div class="form-wrapper">
                 <div class="form-info-wrapper">
                     <div class="individual-form-info-wrapper">
+                        <i class="fas fa-user"></i>
                         <label for="firstNameInput">First name</label>
                         <br>
                         <input required class="input-validation" type="text" minlength="5" placeholder="Enter your first name" name="first_name_input" id="firstNameInput">
                     </div>
                     <div class="individual-form-info-wrapper">
+                        <i class="fas fa-user"></i>
                         <label for="lastNameInput">Last name</label>
                         <br>
                         <input required class="input-validation" type="text" minlength="5" placeholder="Enter your last name" name="last_name_input" id="lastNameInput">
                     </div>
                     <div class="individual-form-info-wrapper">
+                        <i class="fas fa-envelope"></i>
                         <label for="emailInput">Email</label>
                         <br>
                         <input type="email" placeholder="Enter your email" id="emailInput">
                     </div>
+                    <div class="divider"> </div>
+                    <div class="message-wrapper">
+                        <label class="label-message" for="text">Message</label>
+                        <textarea id="text" name="message" minlength="50" maxlength="250"></textarea>
+                    </div>
+                    <div class="submit-wrapper">
+                        <button>Submit</button>
+                        <div class="indication">
+                            <div>or</div>
+                            <div>press</div>
+                            <div>enter</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="divider"> </div>
             </div>
-        </div>
+            <div class="footer">
+                <div>blockchain</div>
+                <div>technology</div>
+            </div>        
     </body>
 </html>
