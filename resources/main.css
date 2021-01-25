@@ -51,7 +51,7 @@ li a{
     padding: 20px 40px;
     text-align: center;
     color: white;
-    font-family:sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: none;
 }
@@ -66,7 +66,7 @@ a:hover{
 
 .title-wrapper{
     color: #fff;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 60px 10px;
     font-weight: lighter;
 }
@@ -94,7 +94,7 @@ a:hover{
    display: flex;
    align-items: center;
    justify-content: center;
-   padding-top: 70px;
+   padding-top: 10%;
    font-family: Arial;
    font-size: 20px;
    color: grey;
@@ -107,18 +107,25 @@ a:hover{
 
 .individual-form-info-wrapper i{
     position: absolute;
-    top: 39px;
+    top: 45px;
     left: 10px;
-    color: grey;
+    color: #d0d0d0;
 }
 
 input{
-    border: 1px solid grey;
-    height: 30px;
+    border: 1.5px solid #d0d0d0;
+    height: 40px;
     width: 400px;
     margin-top: 10px;
     margin-bottom: 20px;
     padding-left: 40px;
+    font-size: 19px;
+    color: #d0d0d0;
+}
+
+label{
+    color: black;
+    font-size: 23px;
 }
 
 .divider{
@@ -143,7 +150,7 @@ input{
 }
 
 textarea{
-    width: 400px;
+    width: 438px;
     height: 150px;
 }
 
@@ -157,11 +164,11 @@ button{
     display: block;
     background-color: #acfdfe;
     height: 35px;
-    width: 120px;
-    color: blue;
-    font-size: 15px;
+    width: 130px;
+    color: #02093B;
+    font-size: 20px;
     border: none;
-    margin-left: 40px;
+    margin-left: 30px;
     margin-right: 20px;
     margin-top: 30px;
 }
@@ -169,7 +176,7 @@ button{
 .indication{
     display: flex;
     margin-top: 34px;
-    color:blue;
+    color: #02093B;
     font-weight: lighter;
 }
 
@@ -191,7 +198,7 @@ button{
 
 .footer div:first-child{
     font-size: 20px;
-    color: blue;
+    color: #02093B;
 }
 
 .footer div:last-child{
