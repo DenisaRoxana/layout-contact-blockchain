@@ -7,6 +7,7 @@ html, body{
 
 .page-wrapper{
     width: 100%;
+    /* aici vrem ca height-ul sa fie stabilit de continutul paginii, deci si scroll. in layout-urile prrecedente aveam ca element de referinta viewport-ul, as dori sa se inteleaga ce si de ce folosim */
     height: 100%;
     background-image: url(../assets/header.PNG);
     background-repeat: no-repeat;
@@ -16,6 +17,7 @@ html, body{
     box-sizing: border-box;
 }
 
+/* atentie: width si height adaugam pe wrapper-ul imaginii, imaginea ar trebui doar sa se adapteze */
 .logo img{
     width: 10%;
     height: 10%;
@@ -115,6 +117,7 @@ a:hover{
 input{
     border: 1.5px solid #d0d0d0;
     height: 40px;
+    /* acesta si textarea la randul 154 are ar fi mult mai ok din punct de vedere structura sa se intinda pana la 100% din parent node, asa nu este foarte consistent, width diferit "cat sa arate bine" este destul de riscant */
     width: 400px;
     margin-top: 10px;
     margin-bottom: 20px;

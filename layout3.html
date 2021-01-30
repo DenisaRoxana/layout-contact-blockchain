@@ -10,6 +10,7 @@
     </head>
     <body>
         <div class="page-wrapper">
+            <!-- sugestie: randurile 14-32 era ok sa le fi pus intr-un <header> din punct de vedere semantic -->
             <div class="logo">
                 <img src="assets/logo.png">
             </div>
@@ -30,6 +31,7 @@
                <div>Fill out the form below to learn more.</div>
             </div>
             <div class="form-wrapper">
+                <!-- atentie, nu ai un <form> tag aici, ar trebui sa fie parent node al acestor componente care sunt incluse in formularul respectiv -->
                 <div class="form-info-wrapper">
                     <div class="individual-form-info-wrapper">
                         <i class="fas fa-user"></i>
@@ -59,6 +61,7 @@
                         <div class="indication">
                             <div>or</div>
                             <div>press</div>
+                            <!-- enter este un call-to-action, deci ne asteptam sa fie un link, chiar daca momentan nu implementam si functionalitatea aici -->
                             <div>enter</div>
                         </div>
                     </div>
